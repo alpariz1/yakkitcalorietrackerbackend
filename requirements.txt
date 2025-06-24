@@ -9,3 +9,4 @@ numpy
 tensorflow                # Eğer model yükleniyorsa
 python-multipart          # fastapi UploadFile için gerekli
 httpx                     # classify servisine istek atmak için
+PyJwt
