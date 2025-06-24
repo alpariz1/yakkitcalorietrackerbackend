@@ -1,12 +1,12 @@
 fastapi
 uvicorn
 pydantic
-python-jose[cryptography] # JWT için gerekli
-passlib[bcrypt]           # Şifre hash'leme için gerekli
+python-jose[cryptography]  
+passlib[bcrypt]            
 sqlalchemy
-pyodbc                    # MSSQL için DB sürücüsü
+pyodbc                     
 numpy
-tensorflow                # Eğer model yükleniyorsa
-python-multipart          # fastapi UploadFile için gerekli
-httpx                     # classify servisine istek atmak için
+tensorflow                 
+python-multipart           
+httpx                    
 PyJwt
