@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-jose[cryptography] # JWT için gerekli
+passlib[bcrypt]           # Şifre hash'leme için gerekli
+sqlalchemy
+pyodbc                    # MSSQL için DB sürücüsü
+numpy
+tensorflow                # Eğer model yükleniyorsa
+python-multipart          # fastapi UploadFile için gerekli
+httpx                     # classify servisine istek atmak için
