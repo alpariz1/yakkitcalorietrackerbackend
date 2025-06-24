@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+pydantic[email]
+PyJWT
+passlib[bcrypt]
+python-multipart
+httpx
+psycopg2-binary   # <-- MS SQL için pyodbc yerine PostgreSQL için bu gerekli
+python-dotenv     # <-- Lokal'de .env dosyalarını okumak için
